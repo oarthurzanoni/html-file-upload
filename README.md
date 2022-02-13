@@ -7,7 +7,7 @@ A simple HTML, CSS and JavaScript file upload.
 ## Features
 
 - Select files from the computer
-- Drag and drop files
+- Drop files
 - List selected files
 
 ## Tech
