@@ -12,6 +12,7 @@
   --text-secondary-color: #bdc1c6;
   --gray-primary-color: #949494;
   --gray-secondary-color: #5f6368;
+  --gray-tertiary-color: #969ba1;
   --blue-color: #8ab4f8;
   --dark-blue-color: #1d1e21;
   --red-color: #d17777;
@@ -90,7 +91,7 @@ input[type="file"] {
   text-align: center;
   cursor: pointer;
   max-height: 700px;
-  max-width: 700px;
+  max-width: 1200px;
 }
 
 .file-upload__over {
@@ -116,4 +117,8 @@ input[type="file"] {
 
 .file-upload .file-upload__figure:hover {
   filter: brightness(1.1);
+}
+
+.icon {
+  fill: var(--gray-tertiary-color);
 }
