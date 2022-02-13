@@ -20,12 +20,6 @@ labelFileUploadEl.addEventListener("drop", handleDrop);
 );
 
 function updateFileList(files) {
-  if (!files) {
-    emptyListInfoEl.removeAttribute("hidden");
-  } else {
-    emptyListInfoEl.setAttribute("hidden", "");
-  }
-
   for (const file of files) {
     const fileExtention = getFileExtention(file.name);
     const fileListItemEl = document.createElement("li");
@@ -66,6 +60,7 @@ function updateFileList(files) {
     `;
 
     fileListEl.appendChild(fileListItemEl);
+    updateFileListInfo();
   }
 }
 
@@ -119,6 +114,17 @@ function handleDrop(e) {
   handleFiles(null, e);
 }
 
+function updateFileListInfo() {
+  const count = fileListEl.children.length;
+
+  if (count > 1) {
+    emptyListInfoEl.setAttribute("hidden", "");
+  } else {
+    emptyListInfoEl.removeAttribute("hidden");
+  }
+}
+
 window.removeFileFromList = (id) => {
   document.getElementById(id).remove();
+  updateFileListInfo();
 };
