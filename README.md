@@ -18,11 +18,11 @@ This app uses only native tools to work properly:
 - CSS
 - JavaScript
 
-## Live preview
-
 ## Screenshot
 
 ![Screenshot 1](/.github/screenshots/1.png)
+
+## Live preview
 
 Check the final result at this web address [mitacho.github.io/html-file-upload](https://mitacho.github.io/html-file-upload/).
 
