@@ -1,31 +1,37 @@
-# HTML file upload
+# HTML File Upload
 
-## _just another weekend hobby project_
+A dependency-free file picker and drag-and-drop interface built with browser-native technologies.
 
-A simple HTML, CSS and JavaScript file upload.
+## Project goal
+
+Explore the File API and drag-and-drop events while creating a polished upload interaction without a frontend framework.
 
 ## Features
 
-- Select files from the computer
-- Drop files
-- List selected files
+- Select files through the native picker
+- Drop files into the interface
+- Display the selected-file list
+- Responsive static interface
 
-## Tech
+## Technologies
 
-This app uses only native tools to work properly:
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **File API**
+- **Drag and Drop API**
 
-- HTML
-- CSS
-- JavaScript
+## What I learned
 
-## Screenshot
+- Working with browser file objects
+- Handling drag-and-drop events safely
+- Progressively enhancing a native file input
+- Building an interactive component without dependencies
 
-![Screenshot 1](/.github/screenshots/1.png)
+## Running locally
 
-## Live preview
+Open `index.html` in a browser.
 
-Check the final result at this web address [mitacho.github.io/html-file-upload](https://mitacho.github.io/html-file-upload/).
+## Project status
 
-## License
-
-MIT
+This is a learning and experimentation repository. It documents the concepts practiced at the time and is not presented as a production-ready application.
